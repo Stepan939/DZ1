@@ -1,0 +1,7 @@
+execve("./hello2", ["./hello2"], 0x7ffe430994e0 /* 25 vars */) = 0
+open("output.txt", O_WRONLY|O_CREAT, 0644) = 3
+write(3, "Hello, world\n", 13)          = 13
+close(3)                                = 0
+write(1, "File written successfully!\n", 27) = 27
+exit(0)                                 = ?
++++ exited with 0 +++
